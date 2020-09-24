@@ -32,3 +32,7 @@ E:\Manajemen Informatika\PKL\POS_vb\AppPenjualan\AppPenjualan\obj\x86\Debug\AppP
 E:\Manajemen Informatika\PKL\POS_vb\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.FormTransJual.resources
 E:\Manajemen Informatika\PKL\POS_vb\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.FormPelanggan.resources
 E:\Manajemen Informatika\PKL\POS_vb\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.FormTransBeli.resources
+C:\xampp\htdocs\POS_Cerutu\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.exe
+C:\xampp\htdocs\POS_Cerutu\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.xml
+C:\xampp\htdocs\POS_Cerutu\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.pdb
+C:\xampp\htdocs\POS_Cerutu\AppPenjualan\AppPenjualan\bin\Debug\AppPenjualan.exe.config
