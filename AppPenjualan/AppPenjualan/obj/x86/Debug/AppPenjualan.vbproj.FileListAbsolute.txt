@@ -36,3 +36,15 @@ C:\xampp\htdocs\POS_Cerutu\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.
 C:\xampp\htdocs\POS_Cerutu\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.xml
 C:\xampp\htdocs\POS_Cerutu\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.pdb
 C:\xampp\htdocs\POS_Cerutu\AppPenjualan\AppPenjualan\bin\Debug\AppPenjualan.exe.config
+C:\xampp\htdocs\POS_Cerutu\AppPenjualan\AppPenjualan\bin\Debug\AppPenjualan.exe
+C:\xampp\htdocs\POS_Cerutu\AppPenjualan\AppPenjualan\bin\Debug\AppPenjualan.pdb
+C:\xampp\htdocs\POS_Cerutu\AppPenjualan\AppPenjualan\bin\Debug\AppPenjualan.xml
+C:\xampp\htdocs\POS_Cerutu\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.vbprojResolveAssemblyReference.cache
+C:\xampp\htdocs\POS_Cerutu\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.FormLogin.resources
+C:\xampp\htdocs\POS_Cerutu\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.FormMasterAdmin.resources
+C:\xampp\htdocs\POS_Cerutu\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.FormMenuUtama.resources
+C:\xampp\htdocs\POS_Cerutu\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.FormPelanggan.resources
+C:\xampp\htdocs\POS_Cerutu\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.FormTransBeli.resources
+C:\xampp\htdocs\POS_Cerutu\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.FormTransJual.resources
+C:\xampp\htdocs\POS_Cerutu\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.Resources.resources
+C:\xampp\htdocs\POS_Cerutu\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.vbproj.GenerateResource.Cache

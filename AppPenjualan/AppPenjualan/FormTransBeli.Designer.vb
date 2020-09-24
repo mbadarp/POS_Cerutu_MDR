@@ -26,8 +26,8 @@ Partial Class FormTransBeli
         Me.LBLItem = New System.Windows.Forms.Label()
         Me.Label17 = New System.Windows.Forms.Label()
         Me.Button4 = New System.Windows.Forms.Button()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.txtjumlahitem = New System.Windows.Forms.TextBox()
+        Me.txtkodebarang = New System.Windows.Forms.TextBox()
         Me.LBLHargaBarang = New System.Windows.Forms.Label()
         Me.LBLNamaBarang = New System.Windows.Forms.Label()
         Me.Label16 = New System.Windows.Forms.Label()
@@ -38,7 +38,7 @@ Partial Class FormTransBeli
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.LBLKembali = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.txtbayar = New System.Windows.Forms.TextBox()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
@@ -53,7 +53,7 @@ Partial Class FormTransBeli
         Me.LBLTelepon = New System.Windows.Forms.Label()
         Me.LBLAlamat = New System.Windows.Forms.Label()
         Me.LBLNamaSup = New System.Windows.Forms.Label()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.ComboKdSupplier = New System.Windows.Forms.ComboBox()
         Me.LBLNoBeli = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
@@ -91,19 +91,19 @@ Partial Class FormTransBeli
         Me.Button4.Text = "Insert"
         Me.Button4.UseVisualStyleBackColor = True
         '
-        'TextBox3
+        'txtjumlahitem
         '
-        Me.TextBox3.Location = New System.Drawing.Point(676, 203)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(135, 20)
-        Me.TextBox3.TabIndex = 70
+        Me.txtjumlahitem.Location = New System.Drawing.Point(676, 203)
+        Me.txtjumlahitem.Name = "txtjumlahitem"
+        Me.txtjumlahitem.Size = New System.Drawing.Size(135, 20)
+        Me.txtjumlahitem.TabIndex = 70
         '
-        'TextBox2
+        'txtkodebarang
         '
-        Me.TextBox2.Location = New System.Drawing.Point(107, 203)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(116, 20)
-        Me.TextBox2.TabIndex = 69
+        Me.txtkodebarang.Location = New System.Drawing.Point(107, 203)
+        Me.txtkodebarang.Name = "txtkodebarang"
+        Me.txtkodebarang.Size = New System.Drawing.Size(116, 20)
+        Me.txtkodebarang.TabIndex = 69
         '
         'LBLHargaBarang
         '
@@ -195,12 +195,12 @@ Partial Class FormTransBeli
         Me.LBLKembali.TabIndex = 59
         Me.LBLKembali.Text = "LBLKembali"
         '
-        'TextBox1
+        'txtbayar
         '
-        Me.TextBox1.Location = New System.Drawing.Point(641, 533)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(170, 20)
-        Me.TextBox1.TabIndex = 58
+        Me.txtbayar.Location = New System.Drawing.Point(641, 533)
+        Me.txtbayar.Name = "txtbayar"
+        Me.txtbayar.Size = New System.Drawing.Size(170, 20)
+        Me.txtbayar.TabIndex = 58
         '
         'Label12
         '
@@ -329,13 +329,13 @@ Partial Class FormTransBeli
         Me.LBLNamaSup.TabIndex = 44
         Me.LBLNamaSup.Text = "LBLNamaSupplier"
         '
-        'ComboBox1
+        'ComboKdSupplier
         '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(239, 92)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(166, 21)
-        Me.ComboBox1.TabIndex = 43
+        Me.ComboKdSupplier.FormattingEnabled = True
+        Me.ComboKdSupplier.Location = New System.Drawing.Point(239, 92)
+        Me.ComboKdSupplier.Name = "ComboKdSupplier"
+        Me.ComboKdSupplier.Size = New System.Drawing.Size(166, 21)
+        Me.ComboKdSupplier.TabIndex = 43
         '
         'LBLNoBeli
         '
@@ -414,8 +414,8 @@ Partial Class FormTransBeli
         Me.Controls.Add(Me.LBLItem)
         Me.Controls.Add(Me.Label17)
         Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.txtjumlahitem)
+        Me.Controls.Add(Me.txtkodebarang)
         Me.Controls.Add(Me.LBLHargaBarang)
         Me.Controls.Add(Me.LBLNamaBarang)
         Me.Controls.Add(Me.Label16)
@@ -426,7 +426,7 @@ Partial Class FormTransBeli
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.LBLKembali)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.txtbayar)
         Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.DataGridView1)
@@ -441,7 +441,7 @@ Partial Class FormTransBeli
         Me.Controls.Add(Me.LBLTelepon)
         Me.Controls.Add(Me.LBLAlamat)
         Me.Controls.Add(Me.LBLNamaSup)
-        Me.Controls.Add(Me.ComboBox1)
+        Me.Controls.Add(Me.ComboKdSupplier)
         Me.Controls.Add(Me.LBLNoBeli)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
@@ -459,8 +459,8 @@ Partial Class FormTransBeli
     Friend WithEvents LBLItem As System.Windows.Forms.Label
     Friend WithEvents Label17 As System.Windows.Forms.Label
     Friend WithEvents Button4 As System.Windows.Forms.Button
-    Friend WithEvents TextBox3 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
+    Friend WithEvents txtjumlahitem As System.Windows.Forms.TextBox
+    Friend WithEvents txtkodebarang As System.Windows.Forms.TextBox
     Friend WithEvents LBLHargaBarang As System.Windows.Forms.Label
     Friend WithEvents LBLNamaBarang As System.Windows.Forms.Label
     Friend WithEvents Label16 As System.Windows.Forms.Label
@@ -471,7 +471,7 @@ Partial Class FormTransBeli
     Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents LBLKembali As System.Windows.Forms.Label
-    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
+    Friend WithEvents txtbayar As System.Windows.Forms.TextBox
     Friend WithEvents Label12 As System.Windows.Forms.Label
     Friend WithEvents Label11 As System.Windows.Forms.Label
     Friend WithEvents DataGridView1 As System.Windows.Forms.DataGridView
@@ -486,7 +486,7 @@ Partial Class FormTransBeli
     Friend WithEvents LBLTelepon As System.Windows.Forms.Label
     Friend WithEvents LBLAlamat As System.Windows.Forms.Label
     Friend WithEvents LBLNamaSup As System.Windows.Forms.Label
-    Friend WithEvents ComboBox1 As System.Windows.Forms.ComboBox
+    Friend WithEvents ComboKdSupplier As System.Windows.Forms.ComboBox
     Friend WithEvents LBLNoBeli As System.Windows.Forms.Label
     Friend WithEvents Label5 As System.Windows.Forms.Label
     Friend WithEvents Label4 As System.Windows.Forms.Label
