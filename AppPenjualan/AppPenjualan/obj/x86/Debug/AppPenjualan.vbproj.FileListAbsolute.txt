@@ -1,0 +1,34 @@
+D:\Project Tech\VBNET 32 Aplikasi Penjualan Part 1\AppPenjualan\AppPenjualan\bin\Debug\AppPenjualan.exe
+D:\Project Tech\VBNET 32 Aplikasi Penjualan Part 1\AppPenjualan\AppPenjualan\bin\Debug\AppPenjualan.pdb
+D:\Project Tech\VBNET 32 Aplikasi Penjualan Part 1\AppPenjualan\AppPenjualan\bin\Debug\AppPenjualan.xml
+D:\Project Tech\VBNET 32 Aplikasi Penjualan Part 1\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.FormLogin.resources
+D:\Project Tech\VBNET 32 Aplikasi Penjualan Part 1\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.FormMenuUtama.resources
+D:\Project Tech\VBNET 32 Aplikasi Penjualan Part 1\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.Resources.resources
+D:\Project Tech\VBNET 32 Aplikasi Penjualan Part 1\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.vbproj.GenerateResource.Cache
+D:\Project Tech\VBNET 32 Aplikasi Penjualan Part 1\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.exe
+D:\Project Tech\VBNET 32 Aplikasi Penjualan Part 1\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.xml
+D:\Project Tech\VBNET 32 Aplikasi Penjualan Part 1\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.pdb
+D:\Master\Project Tech\VBNET 32 Aplikasi Penjualan Part 1\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.exe
+D:\Master\Project Tech\VBNET 32 Aplikasi Penjualan Part 1\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.xml
+D:\Master\Project Tech\VBNET 32 Aplikasi Penjualan Part 1\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.pdb
+D:\Master\Project Tech\VBNET 32 Aplikasi Penjualan Part 1\AppPenjualan\AppPenjualan\bin\Debug\AppPenjualan.exe
+D:\Master\Project Tech\VBNET 32 Aplikasi Penjualan Part 1\AppPenjualan\AppPenjualan\bin\Debug\AppPenjualan.pdb
+D:\Master\Project Tech\VBNET 32 Aplikasi Penjualan Part 1\AppPenjualan\AppPenjualan\bin\Debug\AppPenjualan.xml
+D:\Master\Project Tech\VBNET 32 Aplikasi Penjualan Part 1\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.FormLogin.resources
+D:\Master\Project Tech\VBNET 32 Aplikasi Penjualan Part 1\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.FormMenuUtama.resources
+D:\Master\Project Tech\VBNET 32 Aplikasi Penjualan Part 1\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.Resources.resources
+D:\Master\Project Tech\VBNET 32 Aplikasi Penjualan Part 1\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.vbproj.GenerateResource.Cache
+E:\Manajemen Informatika\PKL\POS_vb\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.exe
+E:\Manajemen Informatika\PKL\POS_vb\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.xml
+E:\Manajemen Informatika\PKL\POS_vb\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.pdb
+E:\Manajemen Informatika\PKL\POS_vb\AppPenjualan\AppPenjualan\bin\Debug\AppPenjualan.exe
+E:\Manajemen Informatika\PKL\POS_vb\AppPenjualan\AppPenjualan\bin\Debug\AppPenjualan.pdb
+E:\Manajemen Informatika\PKL\POS_vb\AppPenjualan\AppPenjualan\bin\Debug\AppPenjualan.xml
+E:\Manajemen Informatika\PKL\POS_vb\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.FormLogin.resources
+E:\Manajemen Informatika\PKL\POS_vb\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.FormMenuUtama.resources
+E:\Manajemen Informatika\PKL\POS_vb\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.Resources.resources
+E:\Manajemen Informatika\PKL\POS_vb\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.vbproj.GenerateResource.Cache
+E:\Manajemen Informatika\PKL\POS_vb\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.FormMasterAdmin.resources
+E:\Manajemen Informatika\PKL\POS_vb\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.FormTransJual.resources
+E:\Manajemen Informatika\PKL\POS_vb\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.FormPelanggan.resources
+E:\Manajemen Informatika\PKL\POS_vb\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.FormTransBeli.resources
