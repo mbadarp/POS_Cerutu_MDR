@@ -36,6 +36,7 @@ Partial Class FormMenuUtama
         Me.BarangToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TransaksiToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PenjualanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PembelianToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LaporanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LaporanPenjualanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.UtilityToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -52,7 +53,7 @@ Partial Class FormMenuUtama
         Me.STLLabel9 = New System.Windows.Forms.ToolStripStatusLabel()
         Me.STLLabel10 = New System.Windows.Forms.ToolStripStatusLabel()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.PembelianToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.LaporanPembelianToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.StatusStrip1.SuspendLayout()
         Me.SuspendLayout()
@@ -136,12 +137,18 @@ Partial Class FormMenuUtama
         'PenjualanToolStripMenuItem
         '
         Me.PenjualanToolStripMenuItem.Name = "PenjualanToolStripMenuItem"
-        Me.PenjualanToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.PenjualanToolStripMenuItem.Size = New System.Drawing.Size(130, 22)
         Me.PenjualanToolStripMenuItem.Text = "Penjualan"
+        '
+        'PembelianToolStripMenuItem
+        '
+        Me.PembelianToolStripMenuItem.Name = "PembelianToolStripMenuItem"
+        Me.PembelianToolStripMenuItem.Size = New System.Drawing.Size(130, 22)
+        Me.PembelianToolStripMenuItem.Text = "Pembelian"
         '
         'LaporanToolStripMenuItem
         '
-        Me.LaporanToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.LaporanPenjualanToolStripMenuItem})
+        Me.LaporanToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.LaporanPenjualanToolStripMenuItem, Me.LaporanPembelianToolStripMenuItem})
         Me.LaporanToolStripMenuItem.Name = "LaporanToolStripMenuItem"
         Me.LaporanToolStripMenuItem.Size = New System.Drawing.Size(62, 20)
         Me.LaporanToolStripMenuItem.Text = "Laporan"
@@ -149,7 +156,7 @@ Partial Class FormMenuUtama
         'LaporanPenjualanToolStripMenuItem
         '
         Me.LaporanPenjualanToolStripMenuItem.Name = "LaporanPenjualanToolStripMenuItem"
-        Me.LaporanPenjualanToolStripMenuItem.Size = New System.Drawing.Size(172, 22)
+        Me.LaporanPenjualanToolStripMenuItem.Size = New System.Drawing.Size(176, 22)
         Me.LaporanPenjualanToolStripMenuItem.Text = "Laporan Penjualan"
         '
         'UtilityToolStripMenuItem
@@ -233,11 +240,11 @@ Partial Class FormMenuUtama
         '
         Me.Timer1.Enabled = True
         '
-        'PembelianToolStripMenuItem
+        'LaporanPembelianToolStripMenuItem
         '
-        Me.PembelianToolStripMenuItem.Name = "PembelianToolStripMenuItem"
-        Me.PembelianToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.PembelianToolStripMenuItem.Text = "Pembelian"
+        Me.LaporanPembelianToolStripMenuItem.Name = "LaporanPembelianToolStripMenuItem"
+        Me.LaporanPembelianToolStripMenuItem.Size = New System.Drawing.Size(176, 22)
+        Me.LaporanPembelianToolStripMenuItem.Text = "Laporan Pembelian"
         '
         'FormMenuUtama
         '
@@ -288,5 +295,6 @@ Partial Class FormMenuUtama
     Friend WithEvents STLLabel10 As System.Windows.Forms.ToolStripStatusLabel
     Friend WithEvents Timer1 As System.Windows.Forms.Timer
     Friend WithEvents PembelianToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents LaporanPembelianToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
 
 End Class

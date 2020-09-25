@@ -18,7 +18,7 @@ Imports System
 Imports System.ComponentModel
 
 
-Public Class CrystalReport2
+Public Class CRV_lapjual
     Inherits ReportClass
     
     Public Sub New()
@@ -27,7 +27,7 @@ Public Class CrystalReport2
     
     Public Overrides Property ResourceName() As String
         Get
-            Return "CrystalReport2.rpt"
+            Return "CRV_lapjual.rpt"
         End Get
         Set
             'Do nothing
@@ -45,7 +45,7 @@ Public Class CrystalReport2
     
     Public Overrides Property FullResourceName() As String
         Get
-            Return "AppPenjualan.CrystalReport2.rpt"
+            Return "AppPenjualan.CRV_lapjual.rpt"
         End Get
         Set
             'Do nothing
@@ -94,7 +94,7 @@ Public Class CrystalReport2
 End Class
 
 <System.Drawing.ToolboxBitmapAttribute(GetType(CrystalDecisions.[Shared].ExportOptions), "report.bmp")>  _
-Public Class CachedCrystalReport2
+Public Class CachedCRV_lapjual
     Inherits Component
     Implements ICachedReport
     
@@ -136,7 +136,7 @@ Public Class CachedCrystalReport2
     End Property
     
     Public Overridable Function CreateReport() As CrystalDecisions.CrystalReports.Engine.ReportDocument Implements CrystalDecisions.ReportSource.ICachedReport.CreateReport
-        Dim rpt As CrystalReport2 = New CrystalReport2()
+        Dim rpt As CRV_lapjual = New CRV_lapjual()
         rpt.Site = Me.Site
         Return rpt
     End Function

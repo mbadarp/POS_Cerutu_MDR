@@ -48,3 +48,5 @@ C:\xampp\htdocs\POS_Cerutu\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.
 C:\xampp\htdocs\POS_Cerutu\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.FormTransJual.resources
 C:\xampp\htdocs\POS_Cerutu\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.Resources.resources
 C:\xampp\htdocs\POS_Cerutu\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.vbproj.GenerateResource.Cache
+C:\xampp\htdocs\POS_Cerutu\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.FormLapPembelian.resources
+C:\xampp\htdocs\POS_Cerutu\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.FormLapPenjualan.resources

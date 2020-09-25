@@ -45,4 +45,13 @@
     Private Sub PembelianToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PembelianToolStripMenuItem.Click
         FormTransBeli.ShowDialog()
     End Sub
+
+    Private Sub LaporanPembelianToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles LaporanPembelianToolStripMenuItem.Click
+        FormLapPembelian.ShowDialog()
+
+    End Sub
+
+    Private Sub LaporanPenjualanToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles LaporanPenjualanToolStripMenuItem.Click
+        FormLapPenjualan.ShowDialog()
+    End Sub
 End Class
