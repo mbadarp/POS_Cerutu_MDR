@@ -61,6 +61,9 @@ Partial Class FormTransJual
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Label17 = New System.Windows.Forms.Label()
         Me.LBLItem = New System.Windows.Forms.Label()
+        Me.btn_print = New System.Windows.Forms.Button()
+        Me.LBLNoJualSbl = New System.Windows.Forms.Label()
+        Me.LBLNoJualSebelum = New System.Windows.Forms.Label()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -394,11 +397,41 @@ Partial Class FormTransJual
         Me.LBLItem.Size = New System.Drawing.Size(104, 26)
         Me.LBLItem.TabIndex = 36
         '
+        'btn_print
+        '
+        Me.btn_print.Location = New System.Drawing.Point(24, 192)
+        Me.btn_print.Name = "btn_print"
+        Me.btn_print.Size = New System.Drawing.Size(75, 23)
+        Me.btn_print.TabIndex = 37
+        Me.btn_print.Text = "Print Nota"
+        Me.btn_print.UseVisualStyleBackColor = True
+        '
+        'LBLNoJualSbl
+        '
+        Me.LBLNoJualSbl.AutoSize = True
+        Me.LBLNoJualSbl.Location = New System.Drawing.Point(121, 197)
+        Me.LBLNoJualSbl.Name = "LBLNoJualSbl"
+        Me.LBLNoJualSbl.Size = New System.Drawing.Size(0, 13)
+        Me.LBLNoJualSbl.TabIndex = 38
+        Me.LBLNoJualSbl.Visible = False
+        '
+        'LBLNoJualSebelum
+        '
+        Me.LBLNoJualSebelum.AutoSize = True
+        Me.LBLNoJualSebelum.Location = New System.Drawing.Point(127, 197)
+        Me.LBLNoJualSebelum.Name = "LBLNoJualSebelum"
+        Me.LBLNoJualSebelum.Size = New System.Drawing.Size(81, 13)
+        Me.LBLNoJualSebelum.TabIndex = 39
+        Me.LBLNoJualSebelum.Text = "NoJualSebelum"
+        '
         'FormTransJual
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(803, 563)
+        Me.ClientSize = New System.Drawing.Size(803, 593)
+        Me.Controls.Add(Me.LBLNoJualSebelum)
+        Me.Controls.Add(Me.LBLNoJualSbl)
+        Me.Controls.Add(Me.btn_print)
         Me.Controls.Add(Me.LBLItem)
         Me.Controls.Add(Me.Label17)
         Me.Controls.Add(Me.Button4)
@@ -482,4 +515,7 @@ Partial Class FormTransJual
     Friend WithEvents Button4 As System.Windows.Forms.Button
     Friend WithEvents Label17 As System.Windows.Forms.Label
     Friend WithEvents LBLItem As System.Windows.Forms.Label
+    Friend WithEvents btn_print As System.Windows.Forms.Button
+    Friend WithEvents LBLNoJualSbl As System.Windows.Forms.Label
+    Friend WithEvents LBLNoJualSebelum As System.Windows.Forms.Label
 End Class

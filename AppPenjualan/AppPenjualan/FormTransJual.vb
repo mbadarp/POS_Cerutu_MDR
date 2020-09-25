@@ -68,6 +68,7 @@ Public Class FormTransJual
             UrutanKode = "J" + Format(Now, "yyMMdd") + Microsoft.VisualBasic.Right("000" & Hitung, 3)
         End If
         LBLNoJual.Text = UrutanKode
+        'LBLNoJualSebelum.Text = UrutanKode - "1"
     End Sub
     Sub BuatKolom()
         DataGridView1.Columns.Clear()
@@ -161,14 +162,31 @@ Public Class FormTransJual
                 Cmd = New OdbcCommand(KurangiStok, Conn)
                 Cmd.ExecuteNonQuery()
             Next
-            Call KondisiAwal()
-            MsgBox("Transaksi Berhasil Disimpan")
 
+            If MessageBox.Show("Apakah ingin cetak nota...?", "", MessageBoxButtons.YesNo) = Windows.Forms.DialogResult.Yes Then
+                FormNotaJual.CRV_strukjual1.SetParameterValue("kodejual", LBLNoJual.Text)
+                FormNotaJual.Show()
+                Call KondisiAwal()
+            Else
+
+                Call KondisiAwal()
+                MsgBox("Transaksi Berhasil Disimpan")
+
+            End If
         End If
+
     End Sub
 
     Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button3.Click
         Me.Close()
     End Sub
 
+    Private Sub btn_print_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btn_print.Click
+        FormNotaJual.CRV_strukjual1.SetParameterValue("kodejual", LBLNoJual.Text)
+        FormNotaJual.Show()
+        'FormNotaJual.CRV_strukjual1.SetParameterValue("kodejual", LBLNoJual.Text)
+        'FormNotaJual.Show()
+
+    End Sub
+  
 End Class
