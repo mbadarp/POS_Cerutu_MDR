@@ -181,7 +181,7 @@ Public Class FormTransJual
         Me.Close()
     End Sub
 
-    Private Sub btn_print_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btn_print.Click
+    Private Sub btn_print_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         FormNotaJual.CRV_strukjual1.SetParameterValue("kodejual", LBLNoJual.Text)
         FormNotaJual.Show()
         'FormNotaJual.CRV_strukjual1.SetParameterValue("kodejual", LBLNoJual.Text)

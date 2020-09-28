@@ -22,6 +22,7 @@ Partial Class FormLapPenjualan
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.CRV_lapjual1 = New AppPenjualan.CRV_lapjual()
         Me.btn_print = New System.Windows.Forms.Button()
         Me.CRV = New CrystalDecisions.Windows.Forms.CrystalReportViewer()
         Me.SuspendLayout()
@@ -31,7 +32,7 @@ Partial Class FormLapPenjualan
         Me.btn_print.Dock = System.Windows.Forms.DockStyle.Top
         Me.btn_print.Location = New System.Drawing.Point(0, 0)
         Me.btn_print.Name = "btn_print"
-        Me.btn_print.Size = New System.Drawing.Size(590, 39)
+        Me.btn_print.Size = New System.Drawing.Size(706, 39)
         Me.btn_print.TabIndex = 0
         Me.btn_print.Text = "Cetak Laporan Penjualan"
         Me.btn_print.UseVisualStyleBackColor = True
@@ -44,14 +45,14 @@ Partial Class FormLapPenjualan
         Me.CRV.Dock = System.Windows.Forms.DockStyle.Fill
         Me.CRV.Location = New System.Drawing.Point(0, 39)
         Me.CRV.Name = "CRV"
-        Me.CRV.Size = New System.Drawing.Size(590, 417)
+        Me.CRV.Size = New System.Drawing.Size(706, 452)
         Me.CRV.TabIndex = 1
         '
         'FormLapPenjualan
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(590, 456)
+        Me.ClientSize = New System.Drawing.Size(706, 491)
         Me.Controls.Add(Me.CRV)
         Me.Controls.Add(Me.btn_print)
         Me.Name = "FormLapPenjualan"
@@ -61,6 +62,7 @@ Partial Class FormLapPenjualan
         Me.ResumeLayout(False)
 
     End Sub
+    Friend WithEvents CRV_lapjual1 As AppPenjualan.CRV_lapjual
     Friend WithEvents btn_print As System.Windows.Forms.Button
     Friend WithEvents CRV As CrystalDecisions.Windows.Forms.CrystalReportViewer
 End Class

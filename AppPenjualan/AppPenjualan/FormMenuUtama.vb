@@ -52,6 +52,10 @@
     End Sub
 
     Private Sub LaporanPenjualanToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles LaporanPenjualanToolStripMenuItem.Click
+        Call Koneksi()
+        'FormLapPenjualan.CRV_lapjual1.SetParameterValue()
         FormLapPenjualan.ShowDialog()
+        'FormNotaJual.CRV_strukjual1.SetParameterValue("kodejual", LBLNoJual.Text)
+        'FormNotaJual.Show()
     End Sub
 End Class
