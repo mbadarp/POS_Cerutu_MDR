@@ -51,3 +51,7 @@ C:\xampp\htdocs\POS_Cerutu\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.
 C:\xampp\htdocs\POS_Cerutu\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.FormLapPembelian.resources
 C:\xampp\htdocs\POS_Cerutu\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.FormLapPenjualan.resources
 C:\xampp\htdocs\POS_Cerutu\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.FormNotaJual.resources
+C:\Users\b\Documents\GitHub\POS_Cerutu_MDR\AppPenjualan\AppPenjualan\bin\Debug\AppPenjualan.exe.config
+C:\Users\b\Documents\GitHub\POS_Cerutu_MDR\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.exe
+C:\Users\b\Documents\GitHub\POS_Cerutu_MDR\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.xml
+C:\Users\b\Documents\GitHub\POS_Cerutu_MDR\AppPenjualan\AppPenjualan\obj\x86\Debug\AppPenjualan.pdb
